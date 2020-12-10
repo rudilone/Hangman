@@ -51,13 +51,15 @@ let numWrong = 0;
 // ----- Functions
 function winner () {
   if (numCorrect == 7) {
-    body.innerHTML="<img src='win.jpg'>";
+    body.innerHTML="";
+    body.style.backgroundImage = "url('win.jpg')"
   }
 }
 
 function lost () {
   if (numWrong == 6) {
-    body.innerHTML="<img src='lost.jpg'>";
+    body.innerHTML=""
+    body.style.backgroundImage = "url('lost.jpg')"
   }
 }
 

@@ -1,12 +1,21 @@
 
 
 body {
-   
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-image: url('bc1.jpg');
     font-weight: 900;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
+.container {
+  width: 70%;
+  margin-left: auto;
+}
+
+
 #logo {
     width: 100px;
    
