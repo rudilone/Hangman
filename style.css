@@ -1,4 +1,44 @@
-#myDiv {
-    background-image: url('D:\hangman\Hangman\Assets\bc1.jpg');
-    
+
+
+body {
+   
+    font-family: 'Roboto', sans-serif;
+    background-image: url('bc1.jpg');
+    font-weight: 900;
+
 }
+#logo {
+    width: 100px;
+   
+}
+
+#myDiv{
+font-size: 146pt;
+
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px;
+    cursor: pointer;
+  }
+
+  #lives {
+    color: #EEFF00;
+    font-size: 50pt;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 600px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    
+  }
